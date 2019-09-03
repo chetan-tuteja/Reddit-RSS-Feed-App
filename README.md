@@ -1,12 +1,12 @@
 # Reddit-RSS-Feed-App
 A Reddit RSS Feed Reader Client for Android.
 
-For those of you who are not familiar with www.Reddit.com, it is considered "The Front Page of the Internet". They have hundreds (if not thousands) of subreddits where users can browse content and explore. Often even celebrities will log onto Reddit.com and answer questions that fans might have.
+For those of you who are not familiar with www.reddit.com, it is considered "The Front Page of the Internet". They have hundreds (if not thousands) of subreddits where users can browse content and explore. Often even celebrities will log onto Reddit.com and answer questions that fans might have.
 
 
 A Reddit RSS App built by extracting information using Reddit RSS Feed, uses Retrofit Library as its base of REST operations and integrates with the website's open source API.
 
-Here is a list of concepts we used in this app:
+Here is a list of concepts I have used in this app:
 
 
 -RSS Feeds
