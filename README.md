@@ -10,18 +10,31 @@ Here is a list of concepts we used in this app:
 
 
 -RSS Feeds
+
 -Parsing XML with Retrofit Library (extracting information from a website)
+
 -Parsing JSON with Retrofit Libary (posting and extracting information from a website)
+
 -POST requests with Retrofit Library
+
 -GET requests with Retrofit Library
+
 -Integrating an Android App with an existing webstie API (Reddit open source API)
+
 -Logging into your Reddit Account using the App
+
 -Viewing post and comments
+
 -Recycler View
+
 -Toolbars, Navigation Bars, Menus
+
 -Passing data between activities with intents
+
 -CardViews
+
 -WebViews
+
 -Basic Android Material Design
 
 
