@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Beige_Light">#FBEED3</color>
+    <color name="Beige_Dark">#E1C699</color>
+    <color name="Light_Gray">#D3D3D3</color>
+    <color name="Beige_even_lighter">#DCDCC6</color>
+    <color name="alternateColorPrimary">#3F51B5</color>
+    <color name="alternateColorPrimaryDark">#303F9F</color>
+    <color name="alternateColorAccent">#FF4081</color>
+
+    <color name="redditBlue">#B3E0FF</color>
+    <color name="redditTeal">#0088CC</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGray">#C3C3C3</color>
+    <color name="colorDarkGray">#4D4D4D</color>
+</resources>

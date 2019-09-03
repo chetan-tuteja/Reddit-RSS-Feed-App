@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Reddit Feed</string>
+    <string name="hint_enter_sr">Enter a subreddit.</string>
+    <string name="get_feed">Get Feed</string>
+    <string name="error">ERROR!!</string>
+    <string name="net_connection">You need to be connected to the internet.</string>
+    <string name="empty_sreddit">Subreddit cannot be empty.</string>
+    <string name="btn_OK">OK</string>
+    <string name="btn_Reply">Reply</string>
+    <string name="load_comment">Loading Comments....</string>
+    <string name="post_title">post_title</string>
+    <string name="post_thumbnail">post_thumbnail</string>
+    <string name="post_author">post_author</string>
+    <string name="post_url">post_url</string>
+    <string name="post_updated">post_updated</string>
+    <string name="post_id">post_id</string>
+    <string name="webpage_url">webpage_url</string>
+    <string name="load_webpage">Loading WebPage....</string>
+    <string name="post_a_comment">Post a comment.</string>
+    <string name="your_comment">Your comment goes here....</string>
+    <string name="btn_post_comment">Post Comment</string>
+    <string name="username_et">Username</string>
+    <string name="password_et">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="no_account">No account yet? Create one</string>
+    <string name="empty_username">Username cannot be empty.</string>
+    <string name="empty_password">Password cannot be empty.</string>
+    <string name="SessionUsername">com.chetantuteja.pocketredditreader.Account.Username</string>
+    <string name="SessionModhash">com.chetantuteja.pocketredditreader.Account.Modhash</string>
+    <string name="SessionCookies">com.chetantuteja.pocketredditreader.Account.Cookies</string>
+    <string name="SessionFileName">com.chetantuteja.pocketredditreader.Account.Prefs</string>
+</resources>

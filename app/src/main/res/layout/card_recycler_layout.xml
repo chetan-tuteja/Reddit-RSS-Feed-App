@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_marginTop="4dp"
+
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="10dp"
+            android:background="@drawable/gray_border"
+            app:cardMaxElevation="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:elevation="10dp"
+    >
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="70dp"
+                    android:layout_margin="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_height="70dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:id="@+id/cardImage"
+            />
+            
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/cardImage">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:gravity="center_vertical"
+                          android:text="Card Title"
+                          android:layout_marginTop="5dp"
+                          android:textColor="#000"
+                          android:textSize="16sp"
+                          android:id="@+id/cardTitle"
+                />
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:gravity="center_vertical"
+                          android:text="Author"
+                          android:textColor="#000"
+                          android:textSize="13sp"
+                          android:layout_marginTop="3dp"
+                          android:layout_below="@id/cardTitle"
+                          android:id="@+id/cardAuthor"
+                />
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:gravity="center_vertical"
+                          android:text="Updated"
+                          android:textColor="#000"
+                          android:textSize="13sp"
+                          android:layout_marginTop="3dp"
+                          android:layout_below="@id/cardAuthor"
+                          android:id="@+id/cardUpdated"
+                />
+
+
+            </RelativeLayout>
+            
+            <ProgressBar
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/cardProgressDialog"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+            />
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
